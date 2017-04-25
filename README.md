@@ -45,5 +45,5 @@ It loads five files into the `local_resources` directory:
 - orange_small_train_upselling.labels (The upselling labels for the Orange small dataset)
 - criteo_train.txt (The features and labels for the Criteo dataset)
 
-The script requires ~4.5G of network traffic and ~11-12F of disk space in addition to the setup script above.
+The script requires ~4.5G of network traffic and ~11-12G of disk space in addition to the setup script above.
 
