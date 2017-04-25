@@ -1,12 +1,9 @@
 #!/bin/bash
 
-# Setup script for Linux
-
-sudo apt-get install gcc
-sudo apt-get install unzip
+# Setup script for MacOSX (anaconda only)
 
 # Download and install anaconda
-curl https://repo.continuum.io/archive/Anaconda2-4.3.1-Linux-x86_64.sh > ./local_resources/anaconda2_install.sh
+curl https://repo.continuum.io/archive/Anaconda2-4.3.1-MacOSX-x86_64.sh > ./local_resources/anaconda2_install.sh
 bash ./local_resources/anaconda2_install.sh -b
 
 rm -f ./local_resources/anaconda2_install.sh
