@@ -92,3 +92,7 @@ To remove the project environment, use the following command:
 conda remove --name gft_env --all
 ```
 
+
+## Documentation
+
+You can find the full derivation on MSPD being an empirical estimate (capturing the interaction between the variance of the random forest and the covariance of predictions between runs) in the `doc` directory.
