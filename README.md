@@ -60,3 +60,35 @@ It loads five files into the `local_resources` directory:
 
 The script requires ~4.5G of network traffic and ~11-12G of disk space in addition to the setup script above.
 
+
+## Running the code
+
+To run the Jupyter notebooks containing the project code:
+
+```
+source activate gft_env
+jupyter notebook
+``` 
+
+There are four notebooks living in the `src` directory:
+
+- BayesOpt.ipynb (For Bayesian optimisation experiments)
+- Figure1.ipynb
+- Figure2.ipynb
+- Figure3.ipynb (For generating figures 1-3 in the paper)
+
+
+## Cleaning Up
+
+After running the code, you can terminate the Jupyter notebook server, and leave the project environment by issuing the following command:
+
+```
+source deactivate
+```
+
+To remove the project environment, use the following command:
+
+```
+conda remove --name gft_env --all
+```
+
