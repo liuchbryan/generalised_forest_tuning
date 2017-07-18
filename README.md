@@ -1,7 +1,18 @@
-# generalised_forest_tuning
-Generalising Random Forest Parameter Optimisation to Include Stability and Cost
+# Generalising Random Forest Parameter Optimisation to Include Stability and Cost
 
+The code repository for the paper to appear in ECML-PKDD 2017:
 
+Liu, C.H.B., Chamberlain, B.P., Little, D.A. and Cardoso, A., 2017. Generalising Random Forest Parameter Optimisation to Include Stability and Cost. _arXiv preprint arXiv:1706.09865_.
+
+In BibTeX:
+```
+@article{liu2017generalising,
+  title={Generalising Random Forest Parameter Optimisation to Include Stability and Cost},
+  author={Liu, CH Bryan and Chamberlain, Benjamin Paul and Little, Duncan A and Cardoso, Angelo},
+  journal={arXiv preprint arXiv:1706.09865},
+  year={2017}
+}
+```
 
 ## Setup
 We provide two scripts to set up the project environment and load the public datasets. 
